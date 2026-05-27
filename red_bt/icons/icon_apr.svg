@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="4" fill="#1a1a2e"/>
+  <!-- Línea entrada -->
+  <line x1="2" y1="16" x2="9" y2="16" stroke="#ffd700" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Línea salida -->
+  <line x1="23" y1="16" x2="30" y2="16" stroke="#ffd700" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cuerpo del APR (rectángulo) -->
+  <rect x="9" y="11" width="14" height="10" rx="2" fill="none" stroke="#ffd700" stroke-width="2"/>
+  <!-- Blade abierto (diagonal) -->
+  <line x1="11" y1="19" x2="20" y2="13" stroke="#ffd700" stroke-width="2" stroke-linecap="round"/>
+  <!-- Puntos de conexión -->
+  <circle cx="9"  cy="16" r="2" fill="#ffd700"/>
+  <circle cx="23" cy="16" r="2" fill="#ffd700"/>
+  <!-- Letra BT pequeña -->
+  <text x="16" y="28" font-family="sans-serif" font-size="5" fill="#ffd700" text-anchor="middle">BT</text>
+</svg>

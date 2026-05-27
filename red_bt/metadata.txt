@@ -1,0 +1,17 @@
+[general]
+name=Red Baja Tensión
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Plugin para digitalizar redes eléctricas de baja tensión: nodos, APR (seccionadores BT), medidores, líneas BT y acometidas, con autonumeración y campos automáticos.
+version=1.0.0
+author=Tu Nombre
+email=tu@email.com
+about=Permite crear capas de elementos de baja tensión con autonumeración automática. Las líneas BT detectan el elemento más cercano (nodo, APR o subestación MT) y completan nodo_inicial/nodo_final automáticamente. Las acometidas detectan el nodo/APR más cercano como origen y el medidor más cercano como destino, completando además el campo acometida_end del medidor. Los APR reciben retroalimentación del ID de línea en sus campos start_line/end_line. CRS: EPSG:22174.
+tracker=
+repository=
+tags=electricidad, baja tension, nodos, APR, medidores, acometidas, lineas bt, digitalización
+homepage=
+category=Vector
+icon=icons/icon_nodo.svg
+experimental=False
+deprecated=False
